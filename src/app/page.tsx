@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Gallery from "./components"; 
+import Profile from "./components2"; 
 
 export default function Home() {
   return (
@@ -38,6 +40,9 @@ export default function Home() {
           priority
         />
       </div>
+
+      <Gallery />  
+      <Profile />  
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
